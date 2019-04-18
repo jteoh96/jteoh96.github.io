@@ -1,0 +1,16 @@
+.jumbotron{
+    height: 80vh;
+    background: url('https://cdn-image.travelandleisure.com/sites/default/files/styles/1600x1000/public/fairbanks-alaska.jpg?itok=Iwv1jVJv');
+}
+
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
